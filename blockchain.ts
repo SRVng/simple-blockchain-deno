@@ -46,7 +46,7 @@ export function createBlockchain(
         ) {
           throw new Error(`Block ${index} has been tampered`);
         }
-      }, [] as Array<boolean>);
+      });
     },
   };
 }
